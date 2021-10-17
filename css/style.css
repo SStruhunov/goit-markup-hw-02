@@ -16,9 +16,10 @@ body {
 
 .btn {
   background: var(--secondary-grey-color);
+  font-family: Roboto;
 
   border-radius: 4px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
