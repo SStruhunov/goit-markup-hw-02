@@ -234,6 +234,11 @@ body {
   background-color: var(--footer-bg-color);
 }
 .footer-address-block {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .footer-address-list {
   list-style: none;
