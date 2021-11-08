@@ -114,7 +114,7 @@ ul {
   line-height: 1.15;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--black-color);
 }
 .header-contact-list {
   display: flex;
@@ -128,8 +128,6 @@ ul {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-
-  /* color: var(--main-grey-color); */
 }
 
 /* ----------------Main content------------------ */
@@ -183,15 +181,12 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  /* color: var(--main-grey-color); */
 }
-/* title and img */
 
 .our-features-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  /* text-align: center; */
   letter-spacing: 0.03em;
 
   color: var(--black-color);
@@ -246,10 +241,12 @@ ul {
 }
 .footer-address-block {
   font-family: Roboto;
-  font-weight: 400;
+  /* font-weight: 400;
+  font-style: normal; */
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-address-list {
   list-style: none;
@@ -271,7 +268,7 @@ ul {
 .portfolio-examples-list-item-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.25;
+  line-height: 2;
   letter-spacing: 0.06em;
 
   color: var(--black-color);
